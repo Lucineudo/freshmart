@@ -15,12 +15,14 @@ Dependencies and requirements used in this boilerplate:
 
 ## 📑 Project structure
 
+
+
+```
 ├──git pull origin dev: baixa o projeto go git
 ├──git add . : adiciona as alteracoes feitas no projeto
 ├──git commit -m: "comentario do que foi feito de alteracao"
 ├──git push origin dev/main/master
 
-```
 ├── public (builded files)
 │   ├── app.css
 │   ├── app.js
