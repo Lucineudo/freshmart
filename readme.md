@@ -1,5 +1,5 @@
 <p align="center" id="sobre">
-<img  src="https://uploaddeimagens.com.br/images/003/855/901/full/catskillet.png" alt="Catskillet"  title="Catskillet" width="300">
+
 </p>
 <h1 align="center">Boilerplate Frontend with Jquery</h1>
 <div align="center">
