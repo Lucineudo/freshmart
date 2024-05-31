@@ -1,9 +1,55 @@
-header {
-  background: {
-    color: var(--purple);
-    image: url('../static/images/favicon.png');
-    repeat: no-repeat;
-    size: cover;
-    position: center;
+.father {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 20px;
+
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+
+    li {
+
+      a {
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 600;
+
+        span {
+          font-size: 10px;
+          padding: 1px 4px;
+          border-radius: 5px;
+          font-weight: 400;
+          // border: solid;
+        }
+
+        .sale {
+          color: #22998D;
+          background-color: #E1F1F0;
+        }
+
+        .hot {
+          color: #EB5484;
+          background-color: #FBDDE7;
+        }
+      }
+
+      .orange {
+        color: #E66F3A;
+      }
+
+      img {
+        width: 16px;
+        height: 20px;
+      }
+    }
+  }
+
+  .icons {
+    display: flex;
+
+    .icon_center {
+      margin: 0 20px 0 20px;
+    }
   }
 }
