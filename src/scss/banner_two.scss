@@ -1,0 +1,33 @@
+.banner_two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(https://demo.webdigify.com/WCM03/WCM079_freshmart/wp-content/uploads/2023/11/cms1-1.jpg);
+    background-position: 75%;
+    background-size: 110%;
+    height: 450px;
+    z-index: 1;
+
+    width: 100%;
+    // text-align: end;
+
+    .space {
+        width: 80%;
+    }
+
+    .title {
+        width: 100%;
+        text-align: center;
+
+        p {
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            padding: 12px 26px;
+
+        }
+    }
+}

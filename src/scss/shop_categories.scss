@@ -1,0 +1,40 @@
+.shop_categories {
+    margin: 100px 0;
+
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h3 {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .container-fluid {
+        .shop {
+            display: flex;
+            gap: 50px;
+            overflow-x: scroll;
+            scrollbar-width: thin;
+            scrollbar-color: #686868 #424242;
+
+            .card_categories {
+                img {
+                    border-radius: 50%;
+                }
+
+                p {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 20px;
+                }
+
+                p:hover {
+                    color: #E66F3A;
+                }
+            }
+        }
+    }
+}

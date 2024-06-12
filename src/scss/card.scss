@@ -1,0 +1,48 @@
+.card {
+    margin: 100px 0;
+
+    .title_card {
+        display: flex;
+        justify-content: center;
+
+        h3 {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .primary {
+        margin-bottom: 30px;
+    }
+
+    .cards {
+        .container-fluid {
+            display: flex;
+            gap: 30px;
+
+            .daughter {
+                width: 100%;
+                border: solid 1px #DAD7CD;
+                gap: 30px;
+
+                figure {
+                    max-width: 100%;
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+
+                .title_daugther {
+                    .container-fluid {
+                        display: inline;
+                        p {
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
