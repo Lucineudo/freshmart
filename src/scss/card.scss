@@ -1,22 +1,16 @@
-.card {
+.carde {
     margin: 100px 0;
 
-    .title_card {
-        display: flex;
-        justify-content: center;
-
-        h3 {
-            display: flex;
-            justify-content: center;
+    .container {
+        .title {
+            text-align: center;
         }
-    }
 
-    .primary {
-        margin-bottom: 30px;
-    }
+        .primary {
+            margin-bottom: 30px;
+        }
 
-    .cards {
-        .container-fluid {
+        .cardes {
             display: flex;
             gap: 30px;
 
@@ -35,14 +29,85 @@
                 }
 
                 .title_daugther {
-                    .container-fluid {
-                        display: inline;
-                        p {
-                            text-align: center;
-                        }
-                    }
+                    text-align: center;
+                    padding: 15px 15px 0 15px;
                 }
             }
+        }
+    }
+}
+
+.carde_two {
+    margin-bottom: 100px;
+
+    .cardes_two {
+        .slick-prev, .slick-next {
+            z-index: 1;
+            display: flex;
+            background-color: #F8CB46;
+            padding: 20px 20px;
+            border-radius: 50%;
+            color: black;
+            text-align: center;
+            left: 10;
+        }
+
+        .slick-prev:before {
+            left: 20px;
+        }
+
+        .daughter {
+            width: 100%;
+            border: solid 1px #DAD7CD;
+            gap: 30px;
+
+            figure {
+                img {
+                    width: 250px;
+                    height: 250px;
+                }
+            }
+
+            .title_daugther {
+                text-align: center;
+                padding: 15px 15px 0 15px;
+            }
+        }
+    }
+
+    .father-cards {
+        display: flex;
+        gap: 30px;
+        margin-top: 50px;
+
+        .maxCard {
+            background-position: 100% 100%;
+            width: 100%;
+            height: 450px;
+            border-radius: 10px;
+            margin-top: 50px;
+
+            .title_card {
+                margin-top: 50px;
+                display: block;
+                text-align: center;
+
+                h2 {
+                    font-size: 32px;
+                }
+            }
+        }
+
+        .maxCard-one {
+            background-image: url(../static/images/mx_one.jpg);
+        }
+
+        .maxCard-two {
+            background-image: url(../static/images/mx_card2.jpg);
+        }
+
+        .maxCard-three {
+            background-image: url(../static/images/mx_card3.jpg);
         }
     }
 }

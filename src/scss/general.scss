@@ -24,8 +24,13 @@ figure {
     border-radius: 5px;
     font-size: 14px;
     font-weight: 600;
-    padding: 8px 15px;
+    padding: 10px 19px;
     background-color: #F8CB46;
+}
+
+.btn-hover:hover {
+    background-color: #E66F3A;
+    color: white;
 }
 
 h3 {

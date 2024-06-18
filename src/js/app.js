@@ -14,9 +14,17 @@ $(document).ready(function () {
 	new Header()
 
 	$('.autoplay').slick({
-		slidesToShow: 3,
+		slidesToShow: 1,
 		slidesToScroll: 1,
 		autoplay: true,
 		autoplaySpeed: 2000,
+	})
+
+	$('.slider-produts').slick({
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 2000,
+		arrows: true,
 	})
 })
