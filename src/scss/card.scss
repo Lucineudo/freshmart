@@ -17,7 +17,6 @@
             .daughter {
                 width: 100%;
                 border: solid 1px #DAD7CD;
-                gap: 30px;
 
                 figure {
                     max-width: 100%;
@@ -41,7 +40,9 @@
     margin-bottom: 100px;
 
     .cardes_two {
-        .slick-prev, .slick-next {
+
+        .slick-prev,
+        .slick-next {
             z-index: 1;
             display: flex;
             background-color: #F8CB46;
@@ -49,17 +50,19 @@
             border-radius: 50%;
             color: black;
             text-align: center;
-            left: 10;
         }
 
-        .slick-prev:before {
-            left: 20px;
+        .slick-prev {
+            left: auto;
+        }
+
+        .slick-next {
+            right: 1px;
         }
 
         .daughter {
             width: 100%;
             border: solid 1px #DAD7CD;
-            gap: 30px;
 
             figure {
                 img {
@@ -72,6 +75,12 @@
                 text-align: center;
                 padding: 15px 15px 0 15px;
             }
+        }
+
+        .daughter:hover .title_daugther {
+            position: relative;
+            top: -50px;
+            transition: 4s;
         }
     }
 
